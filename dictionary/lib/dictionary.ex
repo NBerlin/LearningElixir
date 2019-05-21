@@ -5,4 +5,9 @@ defmodule Dictionary do
     |> String.split("\n", trim: true)
     |> Enum.random
   end
+
+  def swap({a,b}) do
+    {b,a}
+  end
+
 end
